@@ -20,7 +20,29 @@ private:
 
 private slots:
     void digits_numbers();
+    void clearAll();
+    void deleteChar();
+    void calculateSin();
+    void calculateCos();
+    void calculateTan();
+    void calculateAcos();
+    void calculateAsin();
+    void calculateAtan();
+    void calculateSqrt();
+    void calculateLn();
+    void calculatePow();
+    void calculateMod();
+    void calculateLog();
 
+    void printPlus();
+    void printMinus();
+    void printMul();
+    void printDivide();
+
+    void printDot();
+
+    void printLeftBr();
+    void printRightBr();
 };
 
 
