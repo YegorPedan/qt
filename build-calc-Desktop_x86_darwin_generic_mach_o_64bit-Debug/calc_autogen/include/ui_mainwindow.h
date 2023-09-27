@@ -65,13 +65,8 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(0, 0, 241, 61));
-        label->setStyleSheet(QString::fromUtf8("QLabel {\n"
-"  qproperty-alignment:  'AlignVCenter | AlignRight';\n"
-"  border: 1px solid gray;\n"
-"}\n"
-"\n"
-"background-color : white;"));
+        label->setGeometry(QRect(0, 0, 231, 61));
+        label->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         clearButton = new QPushButton(centralwidget);
         clearButton->setObjectName(QString::fromUtf8("clearButton"));
         clearButton->setGeometry(QRect(120, 70, 121, 61));
